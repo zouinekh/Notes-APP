@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddNote">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Add New Note"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title Of note" />
+
+    <EditText
+        android:id="@+id/inputTItleNote"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/input"
+        android:hint="title" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note" />
+
+    <EditText
+        android:id="@+id/noteId"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/input"
+        android:hint="here you can type anything u want" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="categorie" />
+
+    <EditText
+        android:id="@+id/cat"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/input"
+        android:hint="chose category you wish" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="Save"
+        android:textStyle="bold" />
+
+</LinearLayout>
